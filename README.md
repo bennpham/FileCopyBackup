@@ -6,12 +6,12 @@ Introduction
 I was getting sick of certain files such as saved games that are constantly updated either getting lost or corrupted in the past. You can manually go to the folder of the save game and copy and paste it to another location each time, but I find it would be more convenient to have a program to do this entire task in a few clicks of a button. 
 
 I decided to create this program with a few goals:
-  •	A really simple interface
-  •	2 backup folder destination options
-    o	1 to back up the save file to another destination on my computer
-    o	2 to back up the save file to a cloud service such as DropBox if I so desire
-  •	The ability to save presets of what file you want to save and where to save them
-  •	The ability to automatically back up files the moment the program start if the options is ticked
+  -	A really simple interface
+  -	2 backup folder destination options
+    *	1 to back up the save file to another destination on my computer
+    *	2 to back up the save file to a cloud service such as DropBox if I so desire
+  -	The ability to save presets of what file you want to save and where to save them
+  -	The ability to automatically back up files the moment the program start if the options is ticked
 
 Tool: Main Window
 -------------------
@@ -42,7 +42,7 @@ Notes:
 
 Tool: Option
 --------------
-You can select option by either clicking the big OPTION button or go to File  Option.
+You can select option by either clicking the big OPTION button or go to File -> Option.
 
 Save Destination on Start
 --------------------------- 
