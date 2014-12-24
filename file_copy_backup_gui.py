@@ -81,6 +81,12 @@ Please click SAVE TO DEFAULT to save current settings to "default.txt" with vali
         if dialog != '':
             try:
                 self.FileCopyBackup.load_set(dialog)
+                self.entry_tar_dest.delete(0, tkinter.END)
+                self.entry_tar_dest.insert(0, dialog)
+                self.entry_save_dest.delete(0, tkinter.END)
+                self.entry_save_dest.insert(0, dialog)
+                self.entry_save_dest2.delete(0, tkinter.END)
+                self.entry_save_dest2.insert(0, dialog)
             except ValueError:
                 tkinter.messagebox.showwarning("Invalid Parameter", "One or more parameters inside this text file contains invalid settings.")
         
