@@ -15,7 +15,7 @@ I decided to create this program with a few goals:
 
 Tool: Main Window
 -------------------
-A window should pop up that looks like the one above. If you do not have a file called default.txt inside your FileCopyBackup folder, it will automatically be created for you. If you have this file inside your FileCopyBackup folder already, the program will read this document and will make its values (if it contains valid values) as its default launch parameters. 
+A window should pop up. If you do not have a file called default.txt inside your FileCopyBackup folder, it will automatically be created for you. If you have this file inside your FileCopyBackup folder already, the program will read this document and will make its values (if it contains valid values) as its default launch parameters. 
 
 Tool: Target Destination
 -------------------------
@@ -42,7 +42,7 @@ Notes:
 
 Tool: Option
 --------------
-You can select option by either clicking the big OPTION button or go to File  Option. You should have the little box that looks like the one above appear. 
+You can select option by either clicking the big OPTION button or go to File  Option.
 
 Save Destination on Start
 --------------------------- 
@@ -66,7 +66,7 @@ Tool: Save to Default
 ---------------------- 
 This button saves your current settings including any settings you set in OPTION and anything you inputted in TARGET DESTINATION, SAVE DESTINATION, and SAVE DESTINATION 2 to your default.txt file.
 Because the program reads from default.txt before it starts, the program will start with the same settings you previously had since the last time you click SAVE TO DEFAULT.
-Note: You can change your default.txt file manually to change startup parameters. I would only recommend this to advance users only. If you put invalid parameters, the program will start up with any valid parameters it can find, but it will give you a warning message (see below).
+Note: You can change your default.txt file manually to change startup parameters. I would only recommend this to advance users only. If you put invalid parameters, the program will start up with any valid parameters it can find, but it will give you a warning message.
 
 Tool: Load Set & Save Set
 -------------------------- 
@@ -74,7 +74,7 @@ Besides SAVE TO DEFAULT, you can also use SAVE SET to save your current settings
 LOAD SET allows you to load parameters from another text file into the program and it will change each setting for each valid parameters.
 Note: 
 -	You can load a text file with random texts but it will still load as long as there is a valid parameter inside.
--	If a parameter contains invalid values, a warning will appear (see below) and none of your settings will be changed
+-	If a parameter contains invalid values, a warning will appear and none of your settings will be changed
 
 Editing Default.txt & Making Your Own Sets Manually
 ------------------------------------------------------ 
