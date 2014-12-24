@@ -36,13 +36,13 @@ Notes:
 -	If you get the File cannot be found error, when you backup, your backup folders will be created anyways, but it will be empty.
 -	If a directory doesn’t exist, it will be created
 -	The backups will be made based on the settings you have set in your options (they will be cover in the OPTIONS section)
-  o	Backup #1 Default = Exact
-  o	Backup #2 Default = Overwrite
+  *	Backup #1 Default = Exact
+  *	Backup #2 Default = Overwrite
 -	There are rare cases that an unknown error will occur. One of them is entering a name for a directory using invalid symbols
 
 Tool: Option
 --------------
-You can select option by either clicking the big OPTION button or go to File -> Option.
+You can select option by either clicking the big OPTION button or go to File --> Option.
 
 Save Destination on Start
 --------------------------- 
@@ -52,15 +52,15 @@ Save Destination on Start
 Save Destination Selection Box
 ------------------------------- 
 -	Select the save option for either Save Destination 1 or 2
-  o	Overwrite
-    	Copy file to save destination. Overwrite file if it already exists.
-  o	Daily
-    	Creates a new folder with today’s date in save destination
-    	Copy file to new folder (overwrite file if the day is still today)
-  o	Exact
-    	Creates a new folder with today’s date in save destination
-    	Create a new folder with exact time
-    	Copy file to folder with exact time
+  *	Overwrite
+    +	Copy file to save destination. Overwrite file if it already exists.
+  *	Daily
+    +	Creates a new folder with today’s date in save destination
+    +	Copy file to new folder (overwrite file if the day is still today)
+  *	Exact
+    +	Creates a new folder with today’s date in save destination
+    +	Create a new folder with exact time
+    +	Copy file to folder with exact time
 
 Tool: Save to Default
 ---------------------- 
