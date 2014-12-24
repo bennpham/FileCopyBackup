@@ -1,0 +1,10 @@
+BEFORE YOU ATTEMPT TO RUN THIS CODE
+
+- Make sure you have PIL plugin for Python
+- You can get it here 
+https://pypi.python.org/pypi/Pillow/
+
+- I cannot add gif files to the repository so please download folder.gif
+  * It is required so the open folder buttons will work.
+  * Download here 
+  http://www.weebly.com/uploads/6/5/8/1/6581403/folder.gif
